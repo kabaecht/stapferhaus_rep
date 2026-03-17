@@ -1,0 +1,123 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container1{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: auto;
+  margin: 15px;
+  border: green solid 0px;
+
+}
+
+  .container2{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: auto;
+   margin: 10px;
+  margin: 10px;
+  width: 80%;
+  margin-top: 10px;
+  
+  
+}
+
+h1, h2, h3 {
+  line-height: 0.8;
+}
+
+h1 {
+font-family: "mozilla-headline-expanded", sans-serif;
+font-size: 40pt;
+font-weight: 700;
+text-align: left;
+margin: 0.1em;
+ color: #e8e8e8b4;
+  }
+h2 {
+    font-family: "mozilla-headline-expanded", sans-serif;
+    font-size: 40pt;
+    font-weight: 500;
+    text-align: left;
+    margin: 0.1em;
+     color: #f0f0f0a8;
+    }
+h3 {
+    font-family: "mozilla-headline-expanded", sans-serif;
+    font-size: 40pt;
+    font-weight: 300;
+    text-align: left;
+    margin: 0.1em;
+    color: #f4f4f4a2;
+    }
+    h4{
+    font-family: "helvetica-neue-lt-pro", sans-serif;
+    font-size: 12pt;
+    font-weight: 300;
+    text-align: left;
+    margin: 0.1em;
+    color: #939393;
+    }
+
+p {
+  font-family: "helvetica-neue-lt-pro", sans-serif;
+  font-weight: 300; 
+  font-size: 12pt;
+  font-style: normal;
+  text-align: left;
+  color: #939393;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  border: red solid 0px;
+}
+
+.container2 p {
+  margin-top: 0;
+  transform: translateY(130px);
+  margin: 15px;
+}
+
+.image-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 150vw;
+  margin-top: 30px;
+  border: blue solid 0px;
+  transform: translateY(30px);
+}
+
+.image-row2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100vw;
+  margin-top: 0;
+}
+
+.image-row3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100vw;
+  margin-top: 0;
+}
+
+.image-link {
+  display: block;
+  text-decoration: none;
+}
+
+.project-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 0.85;
+}
